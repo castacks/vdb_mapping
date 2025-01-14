@@ -12,6 +12,7 @@ endif()
 
 ## System dependencies are found with CMake's conventions
 find_package(Eigen3 REQUIRED)
+set(OpenVDB_INCLUDE_DIR "/usr/local/include/openvdb" CACHE STRING "Path to OpenVDB installation")
 find_package(OpenVDB REQUIRED)
 find_package(PCL REQUIRED)
 find_package(TBB REQUIRED)
